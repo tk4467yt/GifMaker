@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DEC3DB1E8FF4AB0053F26F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC3DA1E8FF4AB0053F26F /* main.m */; };
+		25DEC3DE1E8FF4AB0053F26F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC3DD1E8FF4AB0053F26F /* AppDelegate.m */; };
+		25DEC3E11E8FF4AB0053F26F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC3E01E8FF4AB0053F26F /* FirstViewController.m */; };
+		25DEC3E41E8FF4AB0053F26F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC3E31E8FF4AB0053F26F /* SecondViewController.m */; };
+		25DEC3E71E8FF4AB0053F26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC3E51E8FF4AB0053F26F /* Main.storyboard */; };
+		25DEC3E91E8FF4AB0053F26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC3E81E8FF4AB0053F26F /* Assets.xcassets */; };
+		25DEC3EC1E8FF4AB0053F26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC3EA1E8FF4AB0053F26F /* LaunchScreen.storyboard */; };
+		25DEC3F71E8FF4AD0053F26F /* GifMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC3F61E8FF4AD0053F26F /* GifMakerTests.m */; };
+		25DEC4021E8FF4AD0053F26F /* GifMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC4011E8FF4AD0053F26F /* GifMakerUITests.m */; };
+		25DEC4191E8FF6950053F26F /* fmdb in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC4181E8FF6950053F26F /* fmdb */; };
+		25DEC41B1E8FF7180053F26F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC41D1E8FF7180053F26F /* Localizable.strings */; };
+		25DEC41F1E8FF7310053F26F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC4211E8FF7310053F26F /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25DEC3F31E8FF4AD0053F26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25DEC3CE1E8FF4A40053F26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25DEC3D51E8FF4A50053F26F;
+			remoteInfo = GifMaker;
+		};
+		25DEC3FE1E8FF4AD0053F26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25DEC3CE1E8FF4A40053F26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25DEC3D51E8FF4A50053F26F;
+			remoteInfo = GifMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25DEC3D61E8FF4A90053F26F /* GifMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DEC3DA1E8FF4AB0053F26F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DEC3DC1E8FF4AB0053F26F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25DEC3DD1E8FF4AB0053F26F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25DEC3DF1E8FF4AB0053F26F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		25DEC3E01E8FF4AB0053F26F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		25DEC3E21E8FF4AB0053F26F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		25DEC3E31E8FF4AB0053F26F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		25DEC3E61E8FF4AB0053F26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25DEC3E81E8FF4AB0053F26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DEC3EB1E8FF4AB0053F26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25DEC3ED1E8FF4AB0053F26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DEC3F21E8FF4AD0053F26F /* GifMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DEC3F61E8FF4AD0053F26F /* GifMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifMakerTests.m; sourceTree = "<group>"; };
+		25DEC3F81E8FF4AD0053F26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DEC3FD1E8FF4AD0053F26F /* GifMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DEC4011E8FF4AD0053F26F /* GifMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifMakerUITests.m; sourceTree = "<group>"; };
+		25DEC4031E8FF4AD0053F26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DEC4181E8FF6950053F26F /* fmdb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fmdb; sourceTree = "<group>"; };
+		25DEC41C1E8FF7180053F26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25DEC41E1E8FF71E0053F26F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		25DEC4221E8FF7340053F26F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		25DEC4231E8FF73F0053F26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DEC3D31E8FF4A50053F26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DEC3EF1E8FF4AD0053F26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DEC3FA1E8FF4AD0053F26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DEC3CD1E8FF4A40053F26F = {
+			isa = PBXGroup;
+			children = (
+				25DEC3D81E8FF4AA0053F26F /* GifMaker */,
+				25DEC3F51E8FF4AD0053F26F /* GifMakerTests */,
+				25DEC4001E8FF4AD0053F26F /* GifMakerUITests */,
+				25DEC3D71E8FF4A90053F26F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DEC3D71E8FF4A90053F26F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC3D61E8FF4A90053F26F /* GifMaker.app */,
+				25DEC3F21E8FF4AD0053F26F /* GifMakerTests.xctest */,
+				25DEC3FD1E8FF4AD0053F26F /* GifMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DEC3D81E8FF4AA0053F26F /* GifMaker */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC4131E8FF5FA0053F26F /* res */,
+				25DEC4121E8FF5C40053F26F /* main */,
+				25DEC4111E8FF5BB0053F26F /* 3rd */,
+				25DEC4101E8FF5B30053F26F /* cell */,
+				25DEC40F1E8FF5AB0053F26F /* vc */,
+				25DEC3D91E8FF4AB0053F26F /* Supporting Files */,
+			);
+			path = GifMaker;
+			sourceTree = "<group>";
+		};
+		25DEC3D91E8FF4AB0053F26F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC3DA1E8FF4AB0053F26F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DEC3F51E8FF4AD0053F26F /* GifMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC3F61E8FF4AD0053F26F /* GifMakerTests.m */,
+				25DEC3F81E8FF4AD0053F26F /* Info.plist */,
+			);
+			path = GifMakerTests;
+			sourceTree = "<group>";
+		};
+		25DEC4001E8FF4AD0053F26F /* GifMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC4011E8FF4AD0053F26F /* GifMakerUITests.m */,
+				25DEC4031E8FF4AD0053F26F /* Info.plist */,
+			);
+			path = GifMakerUITests;
+			sourceTree = "<group>";
+		};
+		25DEC40F1E8FF5AB0053F26F /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC3DF1E8FF4AB0053F26F /* FirstViewController.h */,
+				25DEC3E01E8FF4AB0053F26F /* FirstViewController.m */,
+				25DEC3E21E8FF4AB0053F26F /* SecondViewController.h */,
+				25DEC3E31E8FF4AB0053F26F /* SecondViewController.m */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		25DEC4101E8FF5B30053F26F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		25DEC4111E8FF5BB0053F26F /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC4181E8FF6950053F26F /* fmdb */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		25DEC4121E8FF5C40053F26F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC3DC1E8FF4AB0053F26F /* AppDelegate.h */,
+				25DEC3DD1E8FF4AB0053F26F /* AppDelegate.m */,
+				25DEC3ED1E8FF4AB0053F26F /* Info.plist */,
+				25DEC3EA1E8FF4AB0053F26F /* LaunchScreen.storyboard */,
+				25DEC3E51E8FF4AB0053F26F /* Main.storyboard */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		25DEC4131E8FF5FA0053F26F /* res */ = {
+			isa = PBXGroup;
+			children = (
+				25DEC3E81E8FF4AB0053F26F /* Assets.xcassets */,
+				25DEC4211E8FF7310053F26F /* InfoPlist.strings */,
+				25DEC41D1E8FF7180053F26F /* Localizable.strings */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DEC3D51E8FF4A50053F26F /* GifMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DEC4061E8FF4AD0053F26F /* Build configuration list for PBXNativeTarget "GifMaker" */;
+			buildPhases = (
+				25DEC3D21E8FF4A50053F26F /* Sources */,
+				25DEC3D31E8FF4A50053F26F /* Frameworks */,
+				25DEC3D41E8FF4A50053F26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifMaker;
+			productName = GifMaker;
+			productReference = 25DEC3D61E8FF4A90053F26F /* GifMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25DEC3F11E8FF4AD0053F26F /* GifMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DEC4091E8FF4AD0053F26F /* Build configuration list for PBXNativeTarget "GifMakerTests" */;
+			buildPhases = (
+				25DEC3EE1E8FF4AD0053F26F /* Sources */,
+				25DEC3EF1E8FF4AD0053F26F /* Frameworks */,
+				25DEC3F01E8FF4AD0053F26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25DEC3F41E8FF4AD0053F26F /* PBXTargetDependency */,
+			);
+			name = GifMakerTests;
+			productName = GifMakerTests;
+			productReference = 25DEC3F21E8FF4AD0053F26F /* GifMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25DEC3FC1E8FF4AD0053F26F /* GifMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DEC40C1E8FF4AD0053F26F /* Build configuration list for PBXNativeTarget "GifMakerUITests" */;
+			buildPhases = (
+				25DEC3F91E8FF4AD0053F26F /* Sources */,
+				25DEC3FA1E8FF4AD0053F26F /* Frameworks */,
+				25DEC3FB1E8FF4AD0053F26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25DEC3FF1E8FF4AD0053F26F /* PBXTargetDependency */,
+			);
+			name = GifMakerUITests;
+			productName = GifMakerUITests;
+			productReference = 25DEC3FD1E8FF4AD0053F26F /* GifMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DEC3CE1E8FF4A40053F26F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = " qin";
+				TargetAttributes = {
+					25DEC3D51E8FF4A50053F26F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36Y8RN8MDS;
+						ProvisioningStyle = Automatic;
+					};
+					25DEC3F11E8FF4AD0053F26F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36Y8RN8MDS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25DEC3D51E8FF4A50053F26F;
+					};
+					25DEC3FC1E8FF4AD0053F26F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36Y8RN8MDS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25DEC3D51E8FF4A50053F26F;
+					};
+				};
+			};
+			buildConfigurationList = 25DEC3D11E8FF4A40053F26F /* Build configuration list for PBXProject "GifMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 25DEC3CD1E8FF4A40053F26F;
+			productRefGroup = 25DEC3D71E8FF4A90053F26F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DEC3D51E8FF4A50053F26F /* GifMaker */,
+				25DEC3F11E8FF4AD0053F26F /* GifMakerTests */,
+				25DEC3FC1E8FF4AD0053F26F /* GifMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DEC3D41E8FF4A50053F26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DEC3EC1E8FF4AB0053F26F /* LaunchScreen.storyboard in Resources */,
+				25DEC4191E8FF6950053F26F /* fmdb in Resources */,
+				25DEC41B1E8FF7180053F26F /* Localizable.strings in Resources */,
+				25DEC3E91E8FF4AB0053F26F /* Assets.xcassets in Resources */,
+				25DEC3E71E8FF4AB0053F26F /* Main.storyboard in Resources */,
+				25DEC41F1E8FF7310053F26F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DEC3F01E8FF4AD0053F26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DEC3FB1E8FF4AD0053F26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DEC3D21E8FF4A50053F26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DEC3E41E8FF4AB0053F26F /* SecondViewController.m in Sources */,
+				25DEC3DE1E8FF4AB0053F26F /* AppDelegate.m in Sources */,
+				25DEC3E11E8FF4AB0053F26F /* FirstViewController.m in Sources */,
+				25DEC3DB1E8FF4AB0053F26F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DEC3EE1E8FF4AD0053F26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DEC3F71E8FF4AD0053F26F /* GifMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DEC3F91E8FF4AD0053F26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DEC4021E8FF4AD0053F26F /* GifMakerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25DEC3F41E8FF4AD0053F26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25DEC3D51E8FF4A50053F26F /* GifMaker */;
+			targetProxy = 25DEC3F31E8FF4AD0053F26F /* PBXContainerItemProxy */;
+		};
+		25DEC3FF1E8FF4AD0053F26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25DEC3D51E8FF4A50053F26F /* GifMaker */;
+			targetProxy = 25DEC3FE1E8FF4AD0053F26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25DEC3E51E8FF4AB0053F26F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEC3E61E8FF4AB0053F26F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25DEC3EA1E8FF4AB0053F26F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEC3EB1E8FF4AB0053F26F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		25DEC41D1E8FF7180053F26F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEC41C1E8FF7180053F26F /* Base */,
+				25DEC41E1E8FF71E0053F26F /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		25DEC4211E8FF7310053F26F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEC4221E8FF7340053F26F /* zh-Hans */,
+				25DEC4231E8FF73F0053F26F /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DEC4041E8FF4AD0053F26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25DEC4051E8FF4AD0053F26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25DEC4071E8FF4AD0053F26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36Y8RN8MDS;
+				INFOPLIST_FILE = GifMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.gifmaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25DEC4081E8FF4AD0053F26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36Y8RN8MDS;
+				INFOPLIST_FILE = GifMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.gifmaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25DEC40A1E8FF4AD0053F26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36Y8RN8MDS;
+				INFOPLIST_FILE = GifMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.gifmaker.GifMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifMaker.app/GifMaker";
+			};
+			name = Debug;
+		};
+		25DEC40B1E8FF4AD0053F26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36Y8RN8MDS;
+				INFOPLIST_FILE = GifMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.gifmaker.GifMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifMaker.app/GifMaker";
+			};
+			name = Release;
+		};
+		25DEC40D1E8FF4AD0053F26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 36Y8RN8MDS;
+				INFOPLIST_FILE = GifMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.gifmaker.GifMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifMaker;
+			};
+			name = Debug;
+		};
+		25DEC40E1E8FF4AD0053F26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 36Y8RN8MDS;
+				INFOPLIST_FILE = GifMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazilybird.app.gifmaker.GifMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DEC3D11E8FF4A40053F26F /* Build configuration list for PBXProject "GifMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DEC4041E8FF4AD0053F26F /* Debug */,
+				25DEC4051E8FF4AD0053F26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DEC4061E8FF4AD0053F26F /* Build configuration list for PBXNativeTarget "GifMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DEC4071E8FF4AD0053F26F /* Debug */,
+				25DEC4081E8FF4AD0053F26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25DEC4091E8FF4AD0053F26F /* Build configuration list for PBXNativeTarget "GifMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DEC40A1E8FF4AD0053F26F /* Debug */,
+				25DEC40B1E8FF4AD0053F26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25DEC40C1E8FF4AD0053F26F /* Build configuration list for PBXNativeTarget "GifMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DEC40D1E8FF4AD0053F26F /* Debug */,
+				25DEC40E1E8FF4AD0053F26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DEC3CE1E8FF4A40053F26F /* Project object */;
+}
